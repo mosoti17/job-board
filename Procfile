@@ -1,1 +1,1 @@
-web: ./build/install/job-board/bin/job-board
+web: ./build/install/jobboard/bin/jobboard
