@@ -3,7 +3,7 @@ apply plugin: 'application'
 
 archivesBaseName = "job-board"
 version = '1.0'
-applicationName = "job-board"
+applicationName = "app"
 mainClassName = "App"
 
 repositories {
