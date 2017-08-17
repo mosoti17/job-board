@@ -1,0 +1,14 @@
+#if($city)
+<h1>$city.getName()</h1>
+<ul>
+  #foreach($job in $city.getJobs())
+  <li>$job.getTitle()</li>
+   
+  #end
+</ul>
+
+#else
+<em><p>Oops! We can't seem to find that City.</p></em>
+#end
+<a href="/cities/$city.getId()/jobs/new">Add a new Job</a>
+<a href="/cities">View cities</a>
